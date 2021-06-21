@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> Vegetarian Adventures </title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans+JP:wght@400;900&family=Noto+Serif+JP:wght@400;900&display=swap" rel="stylesheet">
+  <link href="./CSS/VegetarianStyle.css" type="text/css" rel="stylesheet">
+  </head>
+<body>
+    <!--Header/Nav with Recipes (drop down menu), search box, logo, about link-->
+    <header>
+      <nav class="left-nav">
+        <a href="./about">About</a>
+        <a href="./shop">Shop</a>
+      </nav>
+      <h1 class="logo">Vegetarian Adventures</h1>
+      <nav class="right-nav">
+        <a href="./recipes">Recipes</a>
+      </nav>
+        <!--Search Bar goes here. Prob needs some javascript later to function-->
+      <div class="search">
+        <form>
+          <label for="search">Search: </label>
+          <input type="text" name="search" id="search" placeholder="Search">
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+     
+     <!-- <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+      </ul>  This section isn't needed for now. Need to find a place for it.-->
+    </header>
+
+    <!--Hero section with featured recipes-->
+    <div class="hero">
+      <h2>Featured Recipes</h2>
+      <div class="container">
+        <div class="recipe-box">
+          <div class="recipe-box-img">
+            <img src="/Users/Emily/Desktop/HTML Projects/Vegetarian Adventures Blog/Images/Coming_soon.png">
+          </div>
+          <h3>Recipe 1 Title</h3>
+          <p>Recipe description</p>
+       </div>
+        <div class="recipe-box">
+          <div class="recipe-box-img">
+            <img src="/Users/Emily/Desktop/HTML Projects/Vegetarian Adventures Blog/Images/Coming_soon.png">
+          </div>
+          <h3>Recipe 2 Title</h3>
+          <p>Recipe description</p>
+       </div>
+        <div class="recipe-box">
+          <div class="recipe-box-img">
+            <img src="/Users/Emily/Desktop/HTML Projects/Vegetarian Adventures Blog/Images/Coming_soon.png">
+          </div>
+          <h3>Recipe 3 Title</h3>
+          <p>Recipe description</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Random Recipe Picker with buttons for each category-->
+    <div class="random-recipe">
+      <h2>Random Recipe Generator</h2>
+      <p>Not sure what to make? Pick a category and get a random recipe!</p>
+      <div class="container">
+        <div class="recipe-box">
+          <img src="/Users/Emily/Desktop/HTML Projects/Vegetarian Adventures Blog/Images/Coming_soon.png">
+          <h4>Breakfast</h4>
+        </div>
+        <div class="recipe-box">
+          <img src="/Users/Emily/Desktop/HTML Projects/Vegetarian Adventures Blog/Images/Coming_soon.png">
+          <h4>Lunch</h4>
+        </div>
+        <div class="recipe-box">
+          <img src="/Users/Emily/Desktop/HTML Projects/Vegetarian Adventures Blog/Images/Coming_soon.png">
+          <h4>Dinner</h4>
+        </div>
+       <div class="recipe-box">
+        <img src="/Users/Emily/Desktop/HTML Projects/Vegetarian Adventures Blog/Images/Coming_soon.png">
+          <h4>Snacks</h4>
+        </div>
+        <div class="recipe-box">
+          <img src="/Users/Emily/Desktop/HTML Projects/Vegetarian Adventures Blog/Images/Coming_soon.png">
+          <h4>Dessert</h4>
+        </div>
+      </div>
+    </div>
+    <!--Email call to action-->
+    <div class="cta">
+      <p>Want more? Sign up and be the first to see new recipes!</p>
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" name="email">
+    </div>
+
+    <!--Footer with copyright info, contact stuff etc-->
+    
+    <footer>
+      <div class="footer">
+      <p>Author: NekoChan</p>
+      <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+      <p>Copyright 2021</p>
+    </div>
+    </footer>
+
+</body>
+</html>
