@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url(../Images/background_cover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'DotGothic16', sans-serif;
+}
+
+h2 {
+  text-align:center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+a {
+  padding: 10px;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1em;
+}
+
+.logo {
+  display: inline-block;
+  border: 2px solid black;
+  margin: auto;
+}
+
+
+header {
+  display: block;
+  border: 2px solid #c009c5;
+  background-color: #C56209;
+  max-width: 1300px;
+  max-height: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.left-nav {
+  display:inline-block;
+  width: 25%;
+  margin: 2% 2%;
+  padding: auto;
+  border: 2px solid black;
+}
+
+.right-nav {
+  display:inline-block;
+ 
+  margin: 2% 2%;
+  padding: auto;
+  border: 2px solid black;
+}
+
+.search {
+  display:inline-block;
+
+  margin: 2% 2%;
+  padding: auto;
+  border: 2px solid black;
+}
+
+
+.hero {
+  display: block;
+  border: 2px solid #c009c5;
+  background-color: #0ec509;
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.container {
+  display: inline-flex;
+}
+
+.recipe-box {
+  display: inline-block;
+  border: 1px solid #c009c5;
+  margin: 2% 2%;
+  padding: auto;
+  box-shadow: 5px 5px #0A9307;
+  text-align: center;
+}
+
+.recipe-box img {
+  max-width: 45%;
+  height:auto;
+  display: block;
+  margin: auto;
+}
+
+.random-recipe {
+  display: block;
+  border: 2px solid #c009c5;
+  background-color: #0ec509;
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.cta {
+  display: block;
+  border: 2px solid #c009c5;
+  background-color: #C56209;
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+footer {
+  display: block;
+  border: 2px solid #c009c5;
+  background-color: #096CC5;
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
